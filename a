@@ -1,0 +1,22 @@
+1. Uzduotis
+
+function TikrinkNum(num) {
+    if (num > 0) {
+        console.log("Skaicius yra teigiamas");
+    } else if (num < 0) {
+        console.log("Skaicius yra neigiamas");
+    } else {
+        console.log("Skaicius yra nulis");
+    }
+    
+}
+
+2. Uzduotis
+
+function TikrinkSkaiciu(num) {
+    if (num % 2 === 0) {
+        console.log("Skaicius yra lyginis");
+    } else {
+        console.log("Skaicius yra nelyginis");
+    }
+}
